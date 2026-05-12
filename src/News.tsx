@@ -20,9 +20,7 @@ function NewsItem({ image, date }) {
                 </h3>
 
                 <p className="text-sm text-[#9DA1A3] leading-6">
-                    O‘zbekistonlik yosh grossmeyster Turkiyada
-                    o‘tkazilgan shaxmat olimpiadasida ikkita
-                    g‘alaba qozondi lorem ipsum dolor sit amet.
+                    O‘zbekistonlik yosh grossmeyster Turkiyada o‘tkazilgan shaxmat olimpiadasida ikkita g‘....
                 </p>
 
             </section>

@@ -29,39 +29,18 @@ export default function App() {
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-5">
 
-                        <NewsItem
-                            date="Sentabr 7, 2022"
-                            image="/image.png"
-                        />
-
-                        <NewsItem
-                            date="Sentabr 8, 2023"
-                            image="/image2.png"
-                        />
-
-                        <NewsItem
-                            date="Sentabr 9, 2022"
-                            image="/image.png"
-                        />
-
-                        <NewsItem
-                            date="Sentabr 10, 2025"
-                            image="/image2.png"
-                        />
-
-                        <NewsItem
-                            date="Sentabr 11, 2022"
-                            image="/image.png"
-                        />
-
-                        <NewsItem date="Sentabr 12, 2022" image="/image2.png"/>
-                        <NewsItem date="Sentabr 13, 2022" image="/image.png"/>
-                        <NewsItem date="Sentabr 14, 2022" image="/image2.png"/>
-                        <NewsItem date="Sentabr 15, 2022" image="/image.png"/>
-                        <NewsItem date="Sentabr 16, 2022" image="/image2.png"/>
-                        <NewsItem date="Sentabr 17, 2022" image="/image.png"/>
-                        <NewsItem date="Sentabr 18, 2022" image="/image2.png"/>
-
+                        <NewsItem date="Sentabr 7, 2022" image="df14d30f67804e54a957bcbbabd9a35d04fb52e0.png"/>
+                        <NewsItem date="Sentabr 8, 2023" image="c687108248533be0ee3231e0baf151a013e85043.png"/>
+                        <NewsItem date="Sentabr 9, 2022" image="3ada3f89a86a9ac6e48c392904e3ba6bfe5e5bee.png"/>
+                        <NewsItem date="Sentabr 10, 2025" image="3ada3f89a86a9ac6e48c392904e3ba6bfe5e5bee.png"/>
+                        <NewsItem date="Sentabr 11, 2022" image="eff9b8e21db4f39b46c999830d22cd642436feaf.png"/>
+                        <NewsItem date="Sentabr 12, 2022" image="4a2175a2e0f9e3f22e55b8ae03f35e5e8def138f.png"/>
+                        <NewsItem date="Sentabr 13, 2022" image="c687108248533be0ee3231e0baf151a013e85043.png"/>
+                        <NewsItem date="Sentabr 14, 2022" image="0bd06861c9a0a64331e9cac149a7c53b5949ce23.png"/>
+                        <NewsItem date="Sentabr 15, 2022" image="3ada3f89a86a9ac6e48c392904e3ba6bfe5e5bee.png"/>
+                        <NewsItem date="Sentabr 16, 2022" image="eff9b8e21db4f39b46c999830d22cd642436feaf.png"/>
+                        <NewsItem date="Sentabr 17, 2022" image="c687108248533be0ee3231e0baf151a013e85043.png"/>
+                        <NewsItem date="Sentabr 18, 2022" image="df14d30f67804e54a957bcbbabd9a35d04fb52e0.png"/>
                     </div>
                 </section>
 
@@ -95,12 +74,9 @@ export default function App() {
                                 title="Mening esda qolarli o‘yinlarim"
                                 author="B.Fischer"
                             />
-
                         </div>
-
                     </div>
                 </aside>
-
             </div>
         </div>
     );
