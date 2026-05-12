@@ -28,19 +28,77 @@ export default function App() {
                     </div>
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-5">
+                        <NewsItem
+                            date="Sentabr 7, 2022"
+                            image="df14d30f67804e54a957bcbbabd9a35d04fb52e0.png"
+                            title="Nodirbek Abdusattorov FIDE reytingida yuqoriladi"
+                        />
 
-                        <NewsItem date="Sentabr 7, 2022" image="df14d30f67804e54a957bcbbabd9a35d04fb52e0.png"/>
-                        <NewsItem date="Sentabr 8, 2023" image="c687108248533be0ee3231e0baf151a013e85043.png"/>
-                        <NewsItem date="Sentabr 9, 2022" image="3ada3f89a86a9ac6e48c392904e3ba6bfe5e5bee.png"/>
-                        <NewsItem date="Sentabr 10, 2025" image="3ada3f89a86a9ac6e48c392904e3ba6bfe5e5bee.png"/>
-                        <NewsItem date="Sentabr 11, 2022" image="eff9b8e21db4f39b46c999830d22cd642436feaf.png"/>
-                        <NewsItem date="Sentabr 12, 2022" image="4a2175a2e0f9e3f22e55b8ae03f35e5e8def138f.png"/>
-                        <NewsItem date="Sentabr 13, 2022" image="c687108248533be0ee3231e0baf151a013e85043.png"/>
-                        <NewsItem date="Sentabr 14, 2022" image="0bd06861c9a0a64331e9cac149a7c53b5949ce23.png"/>
-                        <NewsItem date="Sentabr 15, 2022" image="3ada3f89a86a9ac6e48c392904e3ba6bfe5e5bee.png"/>
-                        <NewsItem date="Sentabr 16, 2022" image="eff9b8e21db4f39b46c999830d22cd642436feaf.png"/>
-                        <NewsItem date="Sentabr 17, 2022" image="c687108248533be0ee3231e0baf151a013e85043.png"/>
-                        <NewsItem date="Sentabr 18, 2022" image="df14d30f67804e54a957bcbbabd9a35d04fb52e0.png"/>
+                        <NewsItem
+                            date="Sentabr 8, 2023"
+                            image="c687108248533be0ee3231e0baf151a013e85043.png"
+                            title="“Qo‘shnilarning buyuk jasorati”: Rossiyalik grossmeyster o‘zbek shaxmatining g‘alab..."
+                        />
+
+                        <NewsItem
+                            date="Sentabr 9, 2022"
+                            image="3ada3f89a86a9ac6e48c392904e3ba6bfe5e5bee.png"
+                            title="O‘zbekiston shaxmatchilari olimpiadada Armanistonlik raqiblarini mag‘lub etishdi"
+                        />
+
+                        <NewsItem
+                            date="Sentabr 10, 2025"
+                            image="3ada3f89a86a9ac6e48c392904e3ba6bfe5e5bee.png"
+                            title="Yosh grossmeyster yangi rekord qayd etdi"
+                        />
+
+                        <NewsItem
+                            date="Sentabr 11, 2022"
+                            image="eff9b8e21db4f39b46c999830d22cd642436feaf.png"
+                            title="Shaxmat olimpiadasida tarixiy natija qayd etildi"
+                        />
+
+                        <NewsItem
+                            date="Sentabr 12, 2022"
+                            image="4a2175a2e0f9e3f22e55b8ae03f35e5e8def138f.png"
+                            title="O‘zbekiston terma jamoasi kuchli uchlikka kirdi"
+                        />
+
+                        <NewsItem
+                            date="Sentabr 13, 2022"
+                            image="c687108248533be0ee3231e0baf151a013e85043.png"
+                            title="Magnus Carlsen yangi bayonot bilan chiqdi"
+                        />
+
+                        <NewsItem
+                            date="Sentabr 14, 2022"
+                            image="0bd06861c9a0a64331e9cac149a7c53b5949ce23.png"
+                            title="Toshkentda xalqaro shaxmat turniri boshlandi"
+                        />
+
+                        <NewsItem
+                            date="Sentabr 15, 2022"
+                            image="3ada3f89a86a9ac6e48c392904e3ba6bfe5e5bee.png"
+                            title="Nodirbek rapid yo‘nalishida chempion bo‘ldi"
+                        />
+
+                        <NewsItem
+                            date="Sentabr 16, 2022"
+                            image="eff9b8e21db4f39b46c999830d22cd642436feaf.png"
+                            title="Yangi FIDE reytingi e’lon qilindi"
+                        />
+
+                        <NewsItem
+                            date="Sentabr 17, 2022"
+                            image="c687108248533be0ee3231e0baf151a013e85043.png"
+                            title="Jahon chempionatida kuchli bahslar davom etmoqda"
+                        />
+
+                        <NewsItem
+                            date="Sentabr 18, 2022"
+                            image="df14d30f67804e54a957bcbbabd9a35d04fb52e0.png"
+                            title="Shaxmat bo‘yicha yangi loyiha ishga tushdi"
+                        />
                     </div>
                 </section>
 

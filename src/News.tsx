@@ -1,4 +1,4 @@
-function NewsItem({ image, date }) {
+function NewsItem({ image, date,title }) {
     return (
         <article className="bg-[#1A1D1F] rounded-xl p-3 flex flex-col gap-3">
 
@@ -15,8 +15,7 @@ function NewsItem({ image, date }) {
                 </p>
 
                 <h3 className="text-[15px] text-white font-semibold leading-6">
-                    Nodirbek Abdusattorov FIDE jonli reytingida
-                    2700 balldan o‘tdi
+                    {title}
                 </h3>
 
                 <p className="text-sm text-[#9DA1A3] leading-6">
